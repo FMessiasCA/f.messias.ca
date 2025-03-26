@@ -1,0 +1,63 @@
+header {
+    padding-block: 3.2rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    font: var(--text-md);
+
+    background-color: var(--surface-color);
+}
+
+header #profile {
+    display: flex;
+    gap: 3.2rem;
+}
+
+header #profile img {
+    width: 17.6rem;
+    height: 17.6rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header #profile h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+}
+
+header #profile span {
+    font: var(--text-sm);
+    color: var(--brand-color);
+}
+
+header #profile p {
+    width: 38.4rem;
+    text-align: justify;
+    text-indent: 1.6rem;
+}
+
+header #info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+header p {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+header i {
+    color: var(--brand-color);
+}
+
+header #info ul {
+    display: flex;
+    gap: 0.8rem;
+}
+
+header #info ul img {
+    width: 2.4rem;
+}
