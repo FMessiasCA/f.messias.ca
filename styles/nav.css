@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--surface-color);
+}
+
+nav #logo {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--brand-color);
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 2rem;
+    margin-block: 0.8rem;    
+
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+nav li:hover {
+    color: var(--brand-color);
+}
