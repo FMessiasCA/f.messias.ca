@@ -1,18 +1,17 @@
 main {
     display: grid;
     gap: 2.4rem;
-    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 main article.card {
     min-width: 100%;
-    width: 24rem;
     padding-block: 0.8rem;
 
     font: var(--text-sm);
-    color: var(--skeleton-color);
+    color: var(--text-color-secondary);
     
-    background-color: var(--text-color-primary);
+    background-color: var(--skeleton-color);
     border-radius: 4px;
 }
 
@@ -33,14 +32,18 @@ main .card figure {
     border-radius: 4px;
 }
 
-.card figure figcaption {
+.card figure figcaption p {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
 }
 
-.card figure figcaption h3 {
+.card figure figcaption:hover {
     color: var(--brand-color);
+}
+
+.card figure figcaption h3 {
+    color: var(--text-color-primary);
 }
 
 figure footer li {

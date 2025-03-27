@@ -6,7 +6,7 @@ header {
 
     font: var(--text-md);
 
-    background-color: var(--surface-color);
+    background-color: var(--shape-transparency);
 }
 
 header #profile {
